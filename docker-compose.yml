@@ -1,10 +1,11 @@
 version: '3'
 services:
   dadou-robot:
+    container_name: dadou-robot-container
     build: .
     #environment:
     #  - DISPLAY=${DISPLAY}
-    image: dadouuu/dadou-robot
+    image: dadouuu/dadou-robot:latest
     ports:
       - "4421:4421"
     volumes:

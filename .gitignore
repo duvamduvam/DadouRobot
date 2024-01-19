@@ -1,3 +1,5 @@
 # .gitignore
+__pycache__/
+venv/
 chatgpt-key.txt
 response.mp3
